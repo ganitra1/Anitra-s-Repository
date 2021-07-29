@@ -1,0 +1,99 @@
+html{
+   
+}
+.Simon {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+}
+body{
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.359);
+}
+.board {
+      
+    margin-top: -85px;
+           
+}
+.red-box {
+   
+    background-color: red;
+    border-style:solid;
+    border-color:black;
+    border-width: 9px;
+    box-sizing: border-box;
+    width:250px;
+    height:250px;
+    border-radius: 50px;
+   
+
+    
+}
+.blue-box {
+    
+    background-color:blue;
+    border-style:solid;
+    border-color:black;
+    box-sizing: border-box;
+    width:250px;
+    height:250px;
+    position:relative;
+    border-radius: 50px;
+    bottom: 295px;
+    border-width: 9px;
+    
+ 
+    
+}
+.yellow-box {
+    background-color:yellow;
+    border-style:solid;
+    border-color:black;
+    box-sizing: border-box;
+    width:250px;
+    height:250px;
+    position: relative;
+    right:300px;
+    border-radius: 50px;
+    border-width: 9px;
+    
+
+}
+.green-box {
+    
+    background-color: green;
+    border-style: solid;
+    border-color:black;
+    box-sizing: border-box;
+    width:250px;
+    height:250px;
+    position:relative;
+    top:270px;
+    border-radius: 50px;
+    border-width: 9px;
+
+    
+
+}
+.start-area{
+    text-align: relative;
+    margin-top: 80px;
+    position: relative;
+    right:125px ;
+}
+.start{
+    height:100px;
+    width: 200px;
+    background-color:rgb(152, 146, 146);
+    color: white;
+    text-align:center;
+    font-size: 20px;
+    border-color:black;
+    border-radius: 20px;
+    border-width: 9px;
+    font-size:50px;
+    font-family:Lucida;
+
+}
