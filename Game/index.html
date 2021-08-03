@@ -1,64 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<main class="Simon">
-
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Simon Game</title>
-        <link rel="stylesheet" href="style.css">
-
-        <section class="board">
-            <div class="red-box" data-tile="red" </div>
-                <div class="blue-box" data-tile="blue" </div>
-                    <div class="yellow-box" data-tile="yello" </div>
-                        <div class="green-box" data-tile="green" </div>
-        </section>
-
-        <footer class="start-area">
-            <button class="start">Start</button>
-
-        </footer>
-
-
-
-
-
-
-    </head>
-</main>
-<div class= "sounds">
-    <audio
-    src = https://www.zapsplat.com/sound-effect-category/rollover/
-    https://zapsplat.net/zapsplat-sounds/download.php?fileName=little_robot_sound_factory_multimedia_Click_Electronic_14.mp3&expiry=1627589587
-    data-sound = "red"
-    src= https://www.zapsplat.com/sound-effect-category/rollover/
-    https://zapsplat.net/zapsplat-sounds/download.php?fileName=steven_hammon_multimedia_rollover_tone.mp3&expiry=1627588628
-    data-sound = "blue"
-    src= https://www.zapsplat.com/sound-effect-category/rollover/
-    https://zapsplat.net/zapsplat-sounds/download.php?fileName=zapsplat_multimedia_beep_digital_001_26599.mp3&expiry=1627588623
-    data-sound = "yellow"
-    src= https://www.zapsplat.com/sound-effect-category/rollover/
-    https://zapsplat.net/zapsplat-sounds/download.php?fileName=zapsplat_multimedia_ui_tone_short_rollover_metallic_click_38995.mp3&expiry=1627588611
-    data-sound = "green"
-    ></audio>
-
-
-
-</div>
-
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon</title>
+</head>
 <body>
-
-
-
-
-
-  
-    </script>
-
-
-
+    
 </body>
-
 </html>
+<body>
+    <header><h1>Simon Game</h1></header>
+    <link rel="stylesheet" href="style.css">
+    
+    <div class="box red"></div>
+    <div class="box blue"></div>
+    <div class="box yellow"></div>
+    <div class="box green"></div>
+    <div class="bar" id="info">
+        Hi, I'm Simon.  Want to play?
+    </div>
+    <div class="buttons">
+        <button id="start">start</button>
+        <button id="reset">reset</button>
+        
+    </div>
+    <script src="script.js"></script>
