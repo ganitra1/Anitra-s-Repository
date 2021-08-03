@@ -1,60 +1,138 @@
+*{
+
+    
+}
+body {
+	width: 850px;
+	margin: 0 auto;
+	background: rgba(160, 122, 79, 0.318);
+
+}
+
+.box {
+	opacity: 1.0;
+	width: 150px;
+	height: 150px;
+	float: left;
+	margin-left: 50px;
+	border-radius: 2px;
+	transition: 0.2s;
+	
+}
+
+.box:hover {
+	transform: rotate(2deg) scale(1.1);
+}
 
 
-    body {
-        text-align: center;
-        background: url("https://wallpaperaccess.com/full/84248.png");
-        background-size: cover;
-        background-position: center;
-        
-      }
-      img {
-        width: 250px;
-        border-radius: 100%;
-        border:10px solid grey;
-        margin-top:75px;
-      }
-        
-      h1{
-        font-size:70px;
-        color: rgba(26,230,33,024);
-        font-family: 'benne';
-      }
-      h2{ 
-        font-size: 60px;
-        color: rgba(179,229,252);
-        font-family:'stint ultra condensed';
-        margin-left: 40px;
-        margin-right: 40px;
-      }
-      h3{
-        font-size: 50px;
-        color: rgba(225,190,231);
-         font-family:'stint ultra condensed';
-      }
-      p{
-        font-size:20px;
-        color:black;
-      }
-      input{
-        border:0px;
-        padding:10px;
-        font-size:18px;
-      }
-      input[type="submit"]{
-        background:blue;
-        color: white;
-      }
-  .Bart {
-    font-size: 90px;
-        color: rgba(225,190,231);
-         font-family:'stint ultra condensed';
-         margin-top: 10px;
-  }
-  nav {
-      background: turquoise;
-      font-size: 20px;
+
+.box.active {
+	transform: scale(0.9);
+	opacity: 0.1;
+}
+
+.red {
+	background: red;
+    border-style:solid;
+    border-color:black;
+    border-width: 9px;
+    box-sizing: border-box;
+    width:250px;
+    height:250px;
+    border-radius: 50px;
+}
+
+.blue {
+	background: blue;
+    border-style:solid;
+    border-color:black;
+    box-sizing: border-box;
+    width:250px;
+    height:250px;
+    /* position:relative; */
+    border-radius: 50px;
+    bottom: 295px;
+    border-width: 9px;
+}
+
+.yellow {
+	background: yellow;
+    border-style:solid;
+    border-color:black;
+    box-sizing: border-box;
+    width:250px;
+    height:250px;
+    /* position: relative; */
+    right:300px;
+    border-radius: 50px;
+    border-width: 9px;
+}
+
+.green {
+	background: green;
+    border-style: solid;
+    border-color:black;
+    box-sizing: border-box;
+    width:250px;
+    height:250px;
+    /* position:relative; */
+    top:270px;
+    border-radius: 50px;
+    border-width: 9px;
+	
+}
+
+.bar {
+	margin-top: 50px;
+    width: 30px;
+	width: 50%;
+	height: 50px;
+	float: left;
+	border-radius: 20px;
+	color:black;
+	background-color: rgb(240, 140, 182);
+	font-weight: bold;
+	line-height: 42px;
+	text-align: center;
+    margin-left: 130px;
+    font-size: 30px;
+	font-family: Helvetica;
+	font-style: italic;
+	
+	
+}
 
 
-  }
-      
-      
+button {
+	min-width: 110px;
+	font-weight: bold;
+	background: white;
+	border-radius: 8px;
+	color: rgb(52, 73, 94);
+	line-height: 30px;
+	/* text-align: center; */
+	/* border: 0; */
+	transition: 0.3s;
+    margin-right: 100px;
+    font-size:20px;
+}
+
+
+h1 {
+	margin-top: 100px;
+    /* text-align: center; */
+	font-size: 70px;
+	color: rgb(46, 201, 240);
+    margin-left: 160px;
+	font-style: italic;
+	text-shadow: 2px 2px black;
+}
+
+.buttons {
+	width: 100%;
+	float: left;
+	margin-top: 10px;
+	text-align: center;
+}
+
+
