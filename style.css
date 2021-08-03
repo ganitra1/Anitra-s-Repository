@@ -1,0 +1,60 @@
+
+
+    body {
+        text-align: center;
+        background: url("https://wallpaperaccess.com/full/84248.png");
+        background-size: cover;
+        background-position: center;
+        
+      }
+      img {
+        width: 250px;
+        border-radius: 100%;
+        border:10px solid grey;
+        margin-top:75px;
+      }
+        
+      h1{
+        font-size:70px;
+        color: rgba(26,230,33,024);
+        font-family: 'benne';
+      }
+      h2{ 
+        font-size: 60px;
+        color: rgba(179,229,252);
+        font-family:'stint ultra condensed';
+        margin-left: 40px;
+        margin-right: 40px;
+      }
+      h3{
+        font-size: 50px;
+        color: rgba(225,190,231);
+         font-family:'stint ultra condensed';
+      }
+      p{
+        font-size:20px;
+        color:black;
+      }
+      input{
+        border:0px;
+        padding:10px;
+        font-size:18px;
+      }
+      input[type="submit"]{
+        background:blue;
+        color: white;
+      }
+  .Bart {
+    font-size: 90px;
+        color: rgba(225,190,231);
+         font-family:'stint ultra condensed';
+         margin-top: 10px;
+  }
+  nav {
+      background: turquoise;
+      font-size: 20px;
+
+
+  }
+      
+      
